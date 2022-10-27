@@ -1,19 +1,23 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@now/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.js"
-    },
-    {
-      "src": "./data/courses.json",
-      "dest": "/course/:id"
-    }
-  ]
+    "version" : 2,
+    "builds": [
+        {
+        "src": "./index.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "./data/courses.json",
+            "dest": "/courses"
+        },
+        {
+            "src": "./data/courses.json",
+            "dest": "/course/:id"
+        }
+    ]
 }
