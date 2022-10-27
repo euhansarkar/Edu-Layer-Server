@@ -5,7 +5,7 @@
           "is_best_seller": false,
           "is_trending": true
         },
-        "category_id": "python",
+        "category_id": "pythsl",
         "rating": { "number": 4.5, "badge": "Excellent" },
         "price": { "number": 999, "discount": "30" },
         "total_enrolled": 488,
