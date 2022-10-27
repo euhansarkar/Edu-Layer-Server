@@ -10,6 +10,14 @@
       {
         "src": "/(.*)",
         "dest": "index.js"
-      }
+      },
+      {
+        "src": "./data/courses.json",
+        "dest": "/courses"
+    },
+    {
+        "src": "./data/courses.json",
+        "dest": "/course/:id"
+    }
     ]
   }
